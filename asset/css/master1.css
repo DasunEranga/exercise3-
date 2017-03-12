@@ -1,0 +1,344 @@
+/*
+**************************************
+************ common css **************
+**************************************
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@font-face {
+	font-family: 'DINProLight';
+	src: url('../fonts/DINProLight.eot');
+	src: local('DINProLight'), url('../fonts/DINProLight.woff') format('woff'), url('../fonts/DINProLight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'DINProRegular';
+	src: url('../fonts/DINProRegular.eot');
+	src: local('DINProRegular'), url('../fonts/DINProRegular.woff') format('woff'), url('../fonts/DINProRegular.ttf') format('truetype');
+}
+main h3{
+	font: 38px 'Poppins', sans-serif;
+	color: #243a48;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: -3.5px;
+	line-height: 35px;
+}
+main button{
+	border: 2px solid #a4cd39;
+	border-radius: 3px;
+	background-color: transparent;
+	font: 20px 'Poppins', sans-serif;
+	color: #a4cd39;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 35px 20px 35px;
+}
+
+/*
+**************************************
+navigation
+**************************************
+*/
+.example3 .navbar-brand {
+  height: auto;
+}
+.example3 .nav >li >a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.example3 .navbar-toggle {
+  padding: 10px;
+  margin: 25px 15px 25px 0;
+}
+
+.home-sec-four{
+	background-color: #f1f5f6;
+}
+
+.sec-four-wrapper{
+	padding: 65px 0px 70px 0px;
+}
+/*
+**************************************
+banner
+**************************************
+*/
+.header-wrapper{
+	padding: 180px 0px 80px 0px;
+}
+.header-wrapper h1{
+	line-height: 40px;
+}
+.banner-head{
+	font: 50px 'Poppins', sans-serif;
+	font-weight: bold;
+	color: #fff;
+	padding-bottom: 180px;
+}
+.home-head{
+	background-size: cover;
+}
+.banner-head dfn{
+	font-size: 50px;
+	color: #a4cd39;
+	font-style: normal;
+}
+
+/*
+**************************************
+home section one
+**************************************
+*/
+.sec-one-wrapper{
+	padding: 60px 0px 75px 0px;
+}
+.home-sec-one .heading{
+	float: none;
+}
+
+.home-sec-one img{
+	padding-right: 5px;
+	padding-left: 0px !important;
+}
+.test{
+	background-size: cover;
+	width: 100%;
+}
+.test-wrapper, .wrapper-outer{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.img-container{
+	position: relative;
+	width: 200px;
+  height: 150px;
+}
+.image-container .after {
+    position: absolute;
+		padding: 40px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #FFF;
+}
+
+.image-container:hover .after {
+
+    display: block;
+    background: rgba(0, 0, 0, .6);
+		cursor: pointer;
+}
+.after{
+	overflow: hidden;
+}
+.after h5{
+	/*margin: 5px 45px 5px 45px;*/
+	font: 20px 'DINProLight';
+}
+.after h6{
+	font: 16px 'DINProLight';
+}
+.after p{
+	font: 14px 'DINProLight';
+}
+.after dfn{
+	position: absolute;
+	font: 16px 'DINProLight';
+	bottom: 20px;
+	color: #a4cd39;
+}
+.box-container{
+	padding-left: 0;
+	padding-right: 0;
+}
+/*
+**************************************
+home section two
+**************************************
+*/
+.sec-two-wrapper button{
+	padding: 16px 60px 16px 60px;
+}
+.sec-two-wrapper{
+	padding: 70px 0px 78px 0px;
+}
+
+.home-sec-two p{
+font: 26px 'DINProLight';
+color: #243a48;
+text-align: center;
+font-weight: 200px;
+padding-bottom: 68px;
+letter-spacing: -1px;
+}
+.home-form{
+	border: none;
+	font: 20px 'DINProLight';
+	border-bottom: 1px solid #728692;
+	padding: 20px 0px 20px 0px;
+	padding-right: 30%;
+}
+.home-form:focus , .sec-two-wrapper button:focus , .sec-three-wrapper button:focus{
+	outline: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	-webkit-transition:; /* For Safari 3.1 to 6.0 */
+	transition: color 2s , font-size 1s;
+}
+::-webkit-input-placeholder:focus {
+  color: #92abba;
+}
+input:focus {
+    color: green;
+}
+/*
+**************************************
+home section three
+**************************************
+*/
+.home-sec-three {
+	background-size: cover;
+	}
+.home-sec-three h3{
+	color: #fff;
+}
+.home-sec-three p{
+	font: 26px 'DINProLight';
+  margin-bottom: 0;
+	padding-bottom: 43px;
+	letter-spacing: -0.5px;
+}
+.sec-three-wrapper{
+	padding: 70px 0px 65px 0px;
+	text-align: center;
+	color: #fff;
+}
+
+/*
+**************************************
+home section four
+**************************************
+*/
+.home-sec-four h2{
+	font: 55px 'Poppins', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding-bottom: 40px;
+	color: #171f36;
+}
+
+.home-sec-four p{
+	font: 28px 'DINProLight';
+	color: #91959d;
+	margin: 0;
+	padding-bottom: 70px;
+}
+/*
+**************************************
+footer
+**************************************
+*/
+.footer-sec{
+	background-size: cover;
+}
+.footer-wrapper{
+	padding: 80px 0px 80px 0px;
+}
+.contact-info{
+	padding-bottom: 80px;
+}
+.footer-sec h4{
+	font: 22px 'DINProRegular';
+	color: #fff;
+	margin: 0;
+	text-align: center;
+}
+.footer-sec p{
+	font: 18px 'DINProLight';
+	color: #92abba;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 80px;
+}
+.footer-sec a{
+	text-decoration: none;
+}
+
+/**
+ * Sivan[sun.sivan@gmail.com]
+ * This pen is using Autoprefixer
+ */
+
+
+input {
+  display: block;
+  width: 100%;
+  height: 3em;
+  padding: 16px 8px;
+  border: 0;
+  line-height: 1;
+	font: 20px 'DINProLight';
+	border-bottom: 1px solid #728692;
+	padding: 20px 0px 20px 0px;
+	padding-right: 30%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.form-label fieldset {
+  position: relative;
+}
+
+.form-label fieldset + fieldset {
+  border-top: 1px solid #ddd;
+}
+.form-label label {
+  position: absolute;
+  top: 15px;
+  left: 8px;
+	font: 20px 'DINProLight';
+	-webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.quick-form input[data-empty="false"], .quick-form input:focus {
+  padding: 22px 8px 10px;
+}
+.quick-form input:focus {
+  outline: 0;
+  /*background: white;*/
+}
+.quick-form input[data-empty="false"] + label, .quick-form input:focus + label {
+  color: #a4cd39;
+  font-weight: 700;
+  font-size: 12px;
+  -webkit-transform: translate3d(0, -10px, 0);
+          transform: translate3d(0, -10px, 0);
+}
+.home-sec-two p{
+font: 26px 'DINProLight';
+color: #243a48;
+text-align: center;
+font-weight: 200px;
+padding-bottom: 68px;
+letter-spacing: -1px;
+}
+.home-form{
+	font: 20px 'DINProLight';
+	border-bottom: 1px solid #728692;
+	padding: 20px 0px 20px 0px;
+	padding-right: 30%;
+}
+.home-form:focus , .sec-two-wrapper button:focus , .sec-three-wrapper button:focus{
+	outline: 0;
+}
