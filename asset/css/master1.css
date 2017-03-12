@@ -25,6 +25,7 @@ main h3{
 	text-transform: uppercase;
 	letter-spacing: -3.5px;
 	line-height: 35px;
+	margin: 0;
 }
 main button{
 	border: 2px solid #a4cd39;
@@ -42,24 +43,36 @@ main button{
 navigation
 **************************************
 */
-.example3 .navbar-brand {
-  height: auto;
+.nav-main{
+	margin: 0;
+	background: #fff;
 }
-.example3 .nav >li >a {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.nav-item-wrapper{
+	padding: 0;
 }
-.example3 .navbar-toggle {
-  padding: 10px;
-  margin: 25px 15px 25px 0;
+.nav-brand{
+	padding-top: 0;
+	padding-bottom: 0;
+	margin: 0;
+	height: auto;
 }
-
-.home-sec-four{
-	background-color: #f1f5f6;
+.navbar-default .navbar-nav>li>a{
+	font: 16px 'DINProRegular';
+	color: #91959d;
+	line-height: 50px;
+	text-transform: uppercase;
 }
-
-.sec-four-wrapper{
-	padding: 65px 0px 70px 0px;
+.navbar-default .navbar-nav>li>button{
+	border: 1px solid #a4cd39;
+	border-radius: 3px;
+	background-color: transparent;
+	font: 16px 'DINProRegular';
+	color: #a4cd39;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: 16px;
 }
 /*
 **************************************
@@ -93,7 +106,7 @@ home section one
 **************************************
 */
 .sec-one-wrapper{
-	padding: 60px 0px 75px 0px;
+	padding: 60px 0px 0px 0px;
 }
 .home-sec-one .heading{
 	float: none;
@@ -129,7 +142,6 @@ home section one
 }
 
 .image-container:hover .after {
-
     display: block;
     background: rgba(0, 0, 0, .6);
 		cursor: pointer;
@@ -156,6 +168,7 @@ home section one
 .box-container{
 	padding-left: 0;
 	padding-right: 0;
+	padding-top:60px;
 }
 /*
 **************************************
@@ -187,7 +200,6 @@ letter-spacing: -1px;
 .home-form:focus , .sec-two-wrapper button:focus , .sec-three-wrapper button:focus{
 	outline: 0;
 }
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	-webkit-transition:; /* For Safari 3.1 to 6.0 */
 	transition: color 2s , font-size 1s;
@@ -205,7 +217,7 @@ home section three
 */
 .home-sec-three {
 	background-size: cover;
-	}
+}
 .home-sec-three h3{
 	color: #fff;
 }
@@ -234,13 +246,19 @@ home section four
 	padding-bottom: 40px;
 	color: #171f36;
 }
-
 .home-sec-four p{
 	font: 28px 'DINProLight';
 	color: #91959d;
 	margin: 0;
 	padding-bottom: 70px;
 }
+.home-sec-four{
+		background-color: #f1f5f6;
+}
+.sec-four-wrapper{
+	padding: 65px 0px 70px 0px;
+}
+
 /*
 **************************************
 footer
